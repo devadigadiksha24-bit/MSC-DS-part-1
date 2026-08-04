@@ -5,26 +5,8 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo 'Cloning repository'
-                git 'https://github.com/sweta-suman1/MSC-IT-P1.git'
+                git 'https://github.com/devadigadiksha24-bit/MSC-DS-part-1.git'
             }
         }
 
-        stage('Build') {
-            steps {
-                echo 'Building application'
-            }
-        }
-
-        stage('Test') {
-            steps {
-                echo 'Running tests'
-            }
-        }
-
-        stage('Deploy') {
-            steps {
-                echo 'Deploying application'
-            }
-        }
-    }
-}
+    }}
